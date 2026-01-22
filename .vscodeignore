@@ -1,0 +1,7 @@
+.vscode/**
+.git/**
+.gitignore
+outputs/**
+build.sh
+*.vsix
+.DS_Store
