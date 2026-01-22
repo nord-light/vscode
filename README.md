@@ -2,6 +2,29 @@
 
 A light theme for Visual Studio Code and compatible editors (Cursor, VSCodium, etc.) based on the [Nord](https://www.nordtheme.com/) color palette, adapted for light backgrounds.
 
+## Installation
+
+Available on:
+
+- [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=IllegalStudio.nord-light-theme)
+- [Open VSX Registry](https://open-vsx.org/extension/IllegalStudio/nord-light-theme)
+
+Search for "Nord Light Theme" in the Extensions panel or install via command line:
+
+```bash
+# Visual Studio Code
+code --install-extension IllegalStudio.nord-light-theme
+
+# VSCodium
+codium --install-extension IllegalStudio.nord-light-theme
+```
+
+### Activate the theme
+
+1. Open Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
+2. Run "Preferences: Color Theme"
+3. Select "Nord Light"
+
 ## Project Structure
 
 ```
@@ -38,35 +61,6 @@ For more info: https://github.com/microsoft/vscode-vsce
 ```
 
 This generates `outputs/nord-light-theme-<version>.vsix`.
-
-## Installation
-
-### From VSIX file
-
-1. Open Visual Studio Code / Cursor
-2. Open Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
-3. Run "Extensions: Install from VSIX..."
-4. Select the `.vsix` file from the `outputs/` folder
-5. Reload the editor
-
-### From source (development)
-
-```bash
-# Create a symlink in the extensions folder
-# For Visual Studio Code:
-ln -s /path/to/nord-light-vscode ~/.vscode/extensions/nord-light-theme
-
-# For Cursor:
-ln -s /path/to/nord-light-vscode ~/.cursor/extensions/nord-light-theme
-```
-
-Then reload the editor.
-
-### Activate the theme
-
-1. Open Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
-2. Run "Preferences: Color Theme"
-3. Select "Nord Light"
 
 ## Color Palette
 
