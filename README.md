@@ -89,21 +89,21 @@ The original Nord accent colors are designed for dark backgrounds. For the light
 
 | Element | Original Nord | Nord Light | Description |
 |---------|---------------|------------|-------------|
-| Classes/Types | `#8FBCBB` (nord7) | `#1D7A79` | Teal - class names, type references |
-| Functions | `#88C0D0` (nord8) | `#0D7D8C` | Cyan - function declarations and calls |
+| Classes/Types | `#8FBCBB` (nord7) | `#1C7473` | Teal - class names, type references |
+| Functions | `#88C0D0` (nord8) | `#0C7482` | Cyan - function declarations and calls |
 | Tags | `#81A1C1` (nord9) | `#4B6C8C` | Light blue - HTML/XML tags, operators |
 | Keywords | `#5E81AC` (nord10) | `#3B5E85` | Blue - language keywords |
-| Strings | `#A3BE8C` (nord14) | `#6B8B4F` | Green - string literals |
-| Numbers | `#B48EAD` (nord15) | `#8B5E84` | Purple - numeric literals |
-| Constants | `#EBCB8B` (nord13) | `#B8941E` | Yellow - constants, enums |
-| Fields | `#D08770` (nord12) | `#A5614A` | Orange - instance/static fields |
-| Errors | `#BF616A` (nord11) | `#BF616A` | Red - errors (unchanged) |
+| Strings | `#A3BE8C` (nord14) | `#577140` | Green - string literals |
+| Numbers | `#B48EAD` (nord15) | `#865B7F` | Purple - numeric literals |
+| Constants | `#EBCB8B` (nord13) | `#7F6614` | Yellow - constants, enums |
+| Fields | `#D08770` (nord12) | `#975943` | Orange - instance/static fields |
+| Errors | `#BF616A` (nord11) | `#AE4750` | Red - errors (darkened for contrast) |
 
 ### Color Rationale
 
 - **Darkening factor:** ~25-40% darker than original Nord colors
 - **Saturation:** Maintained or slightly increased for vibrancy
-- **Contrast ratio:** All colors meet WCAG AA standards against `#ECEFF4` background
+- **Contrast ratio:** Verified by calculation (WCAG relative luminance). Text colors (`#2E3440`/`#3B4252`/`#4C566A`) exceed 6:1 against every background. Accent colors and the muted gray meet >=4.5:1 (WCAG AA) against both the `#E5E9F0` and `#ECEFF4` backgrounds.
 
 ## Supported Languages
 
