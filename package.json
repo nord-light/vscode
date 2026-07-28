@@ -2,7 +2,7 @@
   "name": "nord-light-theme",
   "displayName": "Nord Light Theme",
   "description": "A light theme based on the Nord color palette",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "IllegalStudio",
   "license": "MIT",
   "engines": {
