@@ -124,7 +124,14 @@ The theme includes syntax highlighting for:
 ## Credits
 
 - Based on [Nord Theme](https://www.nordtheme.com/) by [Sven Greb](https://github.com/svengreb)
-- JetBrains version: [nord-light/jetbrains](https://github.com/nord-light/jetbrains)
+
+## Other Nord Light Ports
+
+- [JetBrains IDEs](https://github.com/nord-light/jetbrains)
+- [Kitty](https://github.com/nord-light/kitty)
+- [Neovim](https://github.com/nord-light/neovim)
+- [tmux](https://github.com/nord-light/tmux)
+- [Zellij](https://github.com/nord-light/zellij)
 
 ## License
 
