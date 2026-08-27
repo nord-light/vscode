@@ -130,6 +130,7 @@ The theme includes syntax highlighting for:
 - [JetBrains IDEs](https://github.com/nord-light/jetbrains)
 - [Kitty](https://github.com/nord-light/kitty)
 - [Neovim](https://github.com/nord-light/neovim)
+- [Omarchy](https://github.com/nord-light/omarchy-nord-light-theme)
 - [tmux](https://github.com/nord-light/tmux)
 - [Zellij](https://github.com/nord-light/zellij)
 
